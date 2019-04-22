@@ -6,7 +6,7 @@ Helm docker image with tillerless plugin.
 
 Start helm tillerless container
 
-    $ docker run --entrypoint /bin/bash --name helm -ti --rm -v $(pwd):/apps -v ~/.kube/singular_managed_config.yaml:/root/.kube/config helm-tillerless:latest
+    $ docker run --entrypoint /bin/bash --name helm -ti --rm -v $(pwd):/apps -v ~/.kube/singular_managed_config.yaml:/root/.kube/config prnjanuario/helm-tillerless:latest
 
 Assuming that we want to deploy stuff the production namespace, once inside the container run the following command to start the tillerless plugin.
 
