@@ -1,4 +1,4 @@
-FROM alpine/helm:latest
+FROM alpine/helm:2.14.0
 
 # Adds
 # * git: required to install tillerless plugin
